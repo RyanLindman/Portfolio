@@ -13,10 +13,10 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("/projects")
+    @GetMapping("/career")
     public String getProjects(){
 
-        return "projects";
+        return "career";
     }
     @GetMapping("/contact")
     public String getContact() {
