@@ -74,18 +74,31 @@ button {
 button:hover {
     background-color: rgba(0,136,169,0.8);
 }
+.homeBtn {
+    color: lightblue;
+}
 h2 {
     font-family: "Montserrat", sans-serif;
     color: #edf0f1;
 
 }
-.articles {
-    font-family: Montserrat, sans-serif;
-    color: #edf0f1;
-    margin-left: 50px;
-
+.articles-container {
+    display: flex;
+    justify-content: space-around;
 
 }
+
+.intro-articles {
+    font-family: Montserrat, sans-serif;
+    color: #edf0f1;
+    width: 32%;
+
+}
+
+.project-article {
+    width: 20%;
+}
+
 .articles li {
     margin-left: 20px;
 
@@ -96,6 +109,9 @@ h2 {
     background-color: #0088a9;
 
 }
+
+
+
 
 
 
