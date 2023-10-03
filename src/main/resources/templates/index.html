@@ -6,6 +6,9 @@
     <link href="/stylesheets/home-style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/88fac8d33f.js" crossorigin="anonymous"></script>
+
+
 
 </head>
 <body>
@@ -59,26 +62,38 @@
                     <article>
                         <h2> Project Showcase </h2>
 
-
-
-
-
                     </article>
             </div>
         </div>
 
+    <br>
 
-
-
-
-    <div id="footer">
         <footer>
-            <a>Ryan Lindman</a> <br>
-            <a href="contact.html" id="footerLink">Contact</a>
+            <div>
+                <a>Ryan Lindman</a>
+                <br>
+                <a href="contact.html" id="footerLink">Contact</a>
+            </div>
+
+            <button class="arrowUpBtn" id="arrowBtn"
+                    title="Go to Top"><a href="#header" class="topText">Top</a><i class="fas fa-arrow-up"></i>
+            </button>
+
         </footer>
+        <script>
+            let myButton = document.getElementById("arrowBtn");
 
-    </div>
+            window.onscroll = function() {
+                scrollFunction()
+            };
 
-
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    myButton.style.display = "flex";
+                } else {
+                    myButton.style.display = "none";
+                }
+            }
+        </script>
 </body>
 </html>
