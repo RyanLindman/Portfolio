@@ -112,10 +112,12 @@ h2 {
 
 }
 
-.project-article {
+.project-articles {
     width: 30%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    font-family: Montserrat, sans-serif;
+    color: #edf0f1;
 }
 
 .articles li {
@@ -142,6 +144,13 @@ h2 {
     border: none;
     border-radius: 50px;
 }
+#card-container {
+    display: flex;
+
+
+}
+
+
 
 
 
