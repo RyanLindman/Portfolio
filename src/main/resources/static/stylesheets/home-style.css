@@ -136,7 +136,7 @@ h2 {
 }
 
 .arrowUpBtn {
-    gap: 15px;
+    gap: 10px;
     display: none;
 }
 .topText {
@@ -144,11 +144,43 @@ h2 {
     border: none;
     border-radius: 50px;
 }
-#card-container {
+
+
+
+
+.card-container {
     display: flex;
+    justify-content: center;
+
+}
+.card {
+    background-color: #edf0f1;
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+}
+
+.card-title {
+    background-color: #edf0f1;
+    width: 200px;
+    color: #24252A;
+    text-align: center;
+    margin-top: 10px;
+
 
 
 }
+.card-text {
+    background-color: #edf0f1;
+    width: 200px;
+    color: #24252A;
+    text-align: center;
+    margin-top: 5px
+
+}
+
+
+
 
 
 
