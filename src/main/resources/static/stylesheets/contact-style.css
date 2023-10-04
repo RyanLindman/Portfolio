@@ -110,4 +110,12 @@ h2 {
     border: none;
     border-radius: 50px;
 }
+.fa-linkedin, .fa-envelope {
+    color: #0088a9;
+}
+#light-mode {
+    background-color: #24252A;
+    color: #0088a9;
+
+}
 
