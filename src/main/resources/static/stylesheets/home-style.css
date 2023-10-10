@@ -230,6 +230,9 @@ h2 {
     .card-container {
         flex-direction: column;
     }
+    #newWindowBtn {
+        display: none;
+    }
 
 }
 .project-h2 {
