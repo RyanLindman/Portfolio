@@ -6,6 +6,10 @@
     background-color: #24252A;
 
 }
+body {
+    padding: 30px 10%;
+
+}
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -19,7 +23,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    margin-bottom: 30px;
+
 
 }
 #navLinks {
@@ -110,8 +115,9 @@ h2 {
     border: none;
     border-radius: 50px;
 }
-.fa-linkedin, .fa-envelope {
+.fa-linkedin, .fa-envelope, .fa-square-github {
     color: #0088a9;
+    width: 20px;
 
 
 }
@@ -125,18 +131,30 @@ h2 {
 
     display: flex;
     flex-direction: column;
-    width: 300px;
-    align-items: center;
+
+    justify-content: space-evenly;
+
     gap: 30px;
 
 }
-.linked-in {
+.linked-in, .mail, .github {
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
 
 }
 
-.mail {
+.h1-contact {
+    margin-bottom: 20px;
+    font-family: "Cairo Play", sans-serif;
+    color: white;
+    font-size: 30px;
 
 }
+
 
 
 
