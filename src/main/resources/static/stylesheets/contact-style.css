@@ -113,10 +113,28 @@ h2 {
 .fa-linkedin, .fa-envelope {
     color: #0088a9;
 
+
 }
 #light-mode {
     background-color: #24252A;
     color: #0088a9;
+
+}
+
+.connect-container {
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 30px;
+
+}
+.linked-in {
+
+}
+
+.mail {
 
 }
 
