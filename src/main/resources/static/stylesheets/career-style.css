@@ -1,3 +1,102 @@
 * {
-    font-family: "montserrat", sans-serif;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+html {
+    scroll-behavior: smooth;
+}
+.main-container {
+
+    font-family: Montserrat, sans-serif;
+
+
+}
+.super-card {
+
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:90px;
+    background-color: #24252A;
+
+    text-align: center;
+    border-top: 1px solid;
+    border-top-color: rgb(170, 50, 220, .6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#footerLink {
+    color:rgb(170, 50, 220, .6);
+
+}
+#footerLink:hover {
+    color: rgba(0,136,169,0.8);
+    transition: all 0.3s ease 0s;
+}
+#logo {
+    cursor:pointer;
+    border-radius: 1%;
+    width: 200px;
+;
+}
+#navLinks {
+    list-style: none;
+
+}
+#navLinks li {
+    display: inline-block;
+    padding: 0 20px;
+}
+#navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+#navLinks li a:hover {
+    color: #0088a9;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    gap: 10px;
+
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+.careerBtn {
+    color: lightblue;
+
 }
