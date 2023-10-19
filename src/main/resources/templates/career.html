@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="">
 <head>
     <meta charset="UTF-8">
     <title>Career</title>
@@ -8,6 +8,7 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
 </head>
+<body>
 <div id="mainHeader">
     <header id="header">
         <img src="/logo.png" alt="logo" id="logo">
@@ -29,13 +30,14 @@
     </header>
 </div>
 <div class="main-container">
-    <div class="super-card">
+    <div class="super-card" id="super-card">
         <div class="card-header">
             <h2>Career & Education</h2>
             <div class="progress-container">
                 <div class="progress-bar" id="progressBarEdu"></div>
             </div>
         </div>
+        <br>
 
         <div class="school-text">
             <h4></h4>
@@ -79,13 +81,8 @@
                 Tvåårig YH-utbildning i utveckling och hantering av mjukvara med
                 fokus på Java, cloud computing, teknisk projektledning och även en del
                 webbutveckling.</p>
-
-
         </div>
-
-
     </div>
-
 </div>
 <footer>
     <div>
@@ -94,11 +91,12 @@
         <a href="/contact" id="footerLink">Contact</a>
     </div>
 </footer>
-<script>
-</script>
-
-
-<body>
-
 </body>
+<script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+
+    }
+</script>
 </html>

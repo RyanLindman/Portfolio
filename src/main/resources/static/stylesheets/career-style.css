@@ -1,4 +1,4 @@
-* {
+html {
 
     box-sizing: border-box;
 
@@ -6,18 +6,43 @@
     padding: 0;
     background-color: #24252A;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .main-container {
 
     font-family: Montserrat, sans-serif;
-
-
+    display: flex;
+    justify-content: center;
 }
+
 .super-card {
-
+    width: 650px;
+    background-color: #edf0f1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+
+.super-card h2 {
+    text-align: center;
+}
+
+.card-header {
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    color: #edf0f1;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 3px 3px #24252A;
+}
+
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -27,6 +52,7 @@ li, a, button {
     cursor: pointer;
 
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -34,12 +60,13 @@ header {
     padding: 30px 10%;
 
 }
+
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    height:90px;
+    height: 90px;
     background-color: #24252A;
 
     text-align: center;
@@ -51,37 +78,44 @@ footer {
     align-items: center;
     gap: 20px;
 }
+
 #footerLink {
-    color:rgb(170, 50, 220, .6);
+    color: rgb(170, 50, 220, .6);
 
 }
+
 #footerLink:hover {
-    color: rgba(0,136,169,0.8);
+    color: rgba(0, 136, 169, 0.8);
     transition: all 0.3s ease 0s;
 }
+
 #logo {
-    cursor:pointer;
+    cursor: pointer;
     border-radius: 1%;
-    width: 200px;
-;
+    width: 200px;;
 }
+
 #navLinks {
     list-style: none;
 
 }
+
 #navLinks li {
     display: inline-block;
     padding: 0 20px;
 }
+
 #navLinks li a {
     transition: all 0.3s ease 0s;
 }
+
 #navLinks li a:hover {
     color: #0088a9;
 }
+
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -94,9 +128,21 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0,136,169,0.8);
+    background-color: rgba(0, 136, 169, 0.8);
 }
+
 .careerBtn {
     color: lightblue;
+
+}
+
+@media screen and (max-width: 600px) {
+    #newWindowBtn {
+        display: none;
+    }
+
+    .super-card {
+        height: 800px;
+    }
 
 }
