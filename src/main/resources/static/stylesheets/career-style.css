@@ -1,14 +1,15 @@
-html {
+* {
 
     box-sizing: border-box;
 
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+
 }
 
 html {
     scroll-behavior: smooth;
+    background-color: #24252A;
 }
 
 .main-container {
@@ -20,15 +21,17 @@ html {
 
 .super-card {
     width: 650px;
-    background-color: #edf0f1;
+    background: linear-gradient(45deg, black, transparent);
     display: flex;
     flex-direction: column;
     padding: 30px;
     margin-top: 50px;
     border-radius: 10px;
-    height: 400px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    height: 500px;
+    overflow-x: clip;
+    overflow-y: scroll;
+    color: #edf;
+    box-shadow: -10px 20px 10px 1px black;
 }
 
 .super-card h2 {
@@ -36,12 +39,17 @@ html {
 }
 
 .card-header {
-    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
-    color: #edf0f1;
-    border-radius: 10px;
-    border: 0;
-    box-shadow: 0 3px 3px #24252A;
+    text-align: center;
+    background: rgb(233,238,174);
+    background: linear-gradient(90deg, rgba(233,238,174,1) 0%, rgba(233,148,203,1) 100%);
+    padding: 18px;
+    font-size: 24px;
+    color: #24252A;
+    border-radius: 6px;
+    margin-bottom: 30px;
+
 }
+
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
@@ -135,6 +143,7 @@ button:hover {
     color: lightblue;
 
 }
+
 
 @media screen and (max-width: 600px) {
     #newWindowBtn {
