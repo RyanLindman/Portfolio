@@ -152,6 +152,8 @@ button:hover {
 
     .super-card {
         height: 800px;
+        display: flex;
+
     }
 
 }
